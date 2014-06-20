@@ -1,4 +1,4 @@
-webteam-blog-theme
-==================
+Maple-Street-School
+===================
 
-WordPress theme for webteam blog
+A website for the Maple Street School in Brooklyn, NY - built on WordPress

@@ -1,0 +1,460 @@
+/*
+Theme Name: Maple Street School
+Theme URI: http://maplestreetschool.org
+Description: A long distance exploration of community.
+Version: 2.0
+Author: Jeremy Zilar
+Author URI: http://jeremyzilar.com/
+*/
+
+
+
+body {
+  background: #FFFEF5 url('img/dust.png');
+  /*background:rgba(205,217,113,.2);*/
+  /*background:#efefef;*/
+  /*background:#fff;*/
+  /*background:#FEFCF4;*/
+  /*background:#FEFDF6;*/
+  /*background:#FEFDF8;*/
+  /*background:#FFFEFA;*/
+  /*background:#FFFEFB;*/
+  /*background:#FFFFFD;*/
+  /*background:#FFFFFF;*/
+  /*background-image: url('img/bg/wc10.png');*/
+  /*background-image: url('img/bg/wc12.png');*/
+  background-image: url('img/bg/wc13.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color:#1E3558;
+  color:#2d2d2d;
+}
+
+a{
+  color:#F16B6D;
+}
+a:hover{
+  text-decoration: underline;
+ color:#F16B6D; 
+}
+
+
+h3 {
+  margin:0 0 40px 0;
+  font-weight: 900;
+  font-size: 28px;
+  text-shadow: 0 2px rgba(0,0,0,0.15);
+}
+
+h4 {
+  margin:0 0 25px 0;
+  font-weight: 900;
+  font-size: 24px;
+  text-shadow: 0 2px rgba(0,0,0,0.15);
+}
+
+h6 {
+  margin:0 0 15px 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 2px rgba(0,0,0,0.15);
+}
+
+section{
+  padding:45px 0;
+}
+
+.container{
+  max-width:960px;
+}
+
+
+/*NAVIGATION*/
+.navbar{
+  margin-bottom:5px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+.navbar li{
+  padding:10px 10px;
+  font-weight: 900;
+  font-size:16px;
+}
+.navbar li:first-child{
+  padding-left:0;
+}
+.navbar li a{
+  padding:0 0 4px 0;
+  color:#1E3558;
+  color:#2d2d2d;
+  border-radius: 0;
+  -webkit-transition: all 0.15s ease-in-out;
+     -moz-transition: all 0.15s ease-in-out;
+       -o-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
+}
+.navbar li a:hover{
+  border-bottom: 3px #2d2d2d solid;
+  background: none;
+}
+.navbar li.active a{
+  color:#1E3558;
+  color:#2d2d2d;
+  background: none;
+}
+.navbar li.active a:hover{
+  color:#1E3558;
+  color:#2d2d2d;
+  background: none; 
+}
+
+
+
+
+/*HEAD*/
+#head{
+  padding:0;
+  /*background-image: url('img/bg/wc13.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;*/
+  min-height: 450px;
+}
+#head .container{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#head h1{
+  /*margin-top: 2em;*/
+  font-weight: 800;
+  font-size: 24px;
+}
+#head h1 a{
+  color:#000;
+}
+#head h1 .logo{
+  margin: 0;
+  display: inline-block;
+  width: 85px;
+}
+#head h2{
+  margin-top: 2em;
+  font-size:24px;
+  font-weight: 700;
+  text-shadow: 0 3px rgba(0,0,0,0.15);
+  color:#fff;
+  text-align: center;
+}
+
+
+
+
+/*Steps*/
+
+.step{
+  padding:15px 15px 20px 15px;
+  border-top: 1px #68cef6 solid;
+  border-top: 1px #68cef6 solid;
+  color:#fff;
+  background:rgba(255,255,255,.15);
+}
+.step.active{
+  background:rgba(255,255,255,.35); 
+}
+
+.step h5{
+  margin:0;
+  font-size: 24px;
+  font-weight: 700;
+}
+.step h5 span{
+  font-weight: 300;
+}
+
+.step h3,
+.step h4,
+.step h6{
+  margin-bottom: 30px;
+  text-align: center;
+}
+.step h6 span{
+  padding-bottom: 2px;
+  color:#fff;
+  border-bottom: 2px #fff solid;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+
+}
+.step p{
+  margin-bottom: 21px;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+.step .lead{
+  font-size:24px;
+  font-weight: 900;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+.step blockquote{
+  padding:10px 40px;
+  border:none;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  text-indent: -25px;
+}
+.step blockquote span{
+  margin-right: 5px;
+  font-weight: 700;
+}
+
+
+
+/*Mission*/
+.mission{
+  /*background: white;*/
+  /*background:#A3E3FD;*/
+  /*background:rgba(252,204,0,.8);*/
+}
+.mission p{
+  margin-bottom: 24px;
+  /*text-align: center;*/
+  font-size:21px;
+  font-weight: 700;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+.mission p a{
+  /*display: block;*/
+}
+.mission *:last-child{
+  margin-bottom: 0;
+}
+.mission blockquote{
+  padding:10px 40px;
+  border:none;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  text-indent: -25px;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+.mission blockquote span{
+  margin-right: 5px;
+  font-weight: 700;
+}
+.mission .lead{
+  font-size:24px;
+  font-weight: 900;
+}
+
+.mission-nav{
+  padding:0;
+  text-align: center;
+}
+.mission-nav li{
+  padding: 5px .6em;
+  display: inline;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+
+
+/*MSG box*/
+#survey-msg{
+  text-align: center;
+  background:rgba(205,217,113,1);
+  background:rgba(43,160,90,.9);
+}
+#survey-msg p{
+  margin:0 0 15px 0;
+  font-size: 18px;
+  color: white;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+#survey-msg p em{
+  border-bottom: 2px #fff dotted;
+}
+#survey-msg h3{
+  margin:0 0 28px 0;
+  font-size:32px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+#survey-msg h3 a{
+  padding-bottom: 3px;
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+}
+#survey-msg h3 a:hover{
+  border-bottom: 3px #fff solid;
+}
+#survey-msg h3 img{
+  margin-top: -3px;
+  margin-left: 5px;
+  width: 25px;
+}
+
+
+#process{
+  background: #138BBB;
+  /*background: #13a1dc;*/
+  color:#fff;
+}
+#process p{
+  margin-bottom: 24px;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+#process .btn-learn{
+  margin-top: 15px;
+  padding: 6px 18px;
+  background: #F16B6D;
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+}
+#process .btn-learn i{
+  position: relative;
+  top:2px;
+  left:2px;
+}
+
+
+
+/*Social Promo on Homepage*/
+#social{
+  padding: 35px 0;
+  background: #fff;
+}
+#social h4{
+  margin:0 0 15px 0;
+  font-weight: 300;
+  font-size: 21px;
+  text-shadow: 0 1px rgba(0,0,0,0.15);
+}
+#social h4 i{
+  position: relative;
+  top: 6px;
+  left: -6px;
+}
+#social h4 a{
+  color:#0098ff;
+  text-decoration: none;
+  -webkit-transition: all 0.15s ease-in-out;
+     -moz-transition: all 0.15s ease-in-out;
+       -o-transition: all 0.15s ease-in-out;
+          transition: all 0.15s ease-in-out;
+}
+#social h4 a:hover{
+  color:#0080d8;
+}
+
+/*ENTRY // Blog Posts*/
+
+.entry{
+  margin:40px 0;
+  padding:40px 0;
+}
+.entry:first-child{
+  margin-top:0;
+}
+.entry p{
+  margin-bottom: 21px;
+  font-size:21px;
+  line-height:30px;
+}
+
+.entry .kicker{
+  margin:0 0 10px 0;
+  font-size:14px;
+  font-weight:700;
+}
+.entry .kicker a,
+.entry .kicker a:hover{
+  text-decoration: none;
+}
+.entry-title{
+  margin-top:0;
+  margin-bottom:20px;
+  font-size:30px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  font-weight:900;
+}
+.entry-title a{
+  color:#1E3558;
+  color:#2d2d2d;
+  text-decoration: none;
+}
+
+
+/*Draft Posts*/
+.status-label{
+  margin-right:3px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  text-transform:uppercase;
+  font-size:13px;
+}
+.status-draft{
+  background:rgba(247, 198, 5, 0.35);
+}
+
+/*Entry Meta*/
+.entry-meta .date{
+  color:#b9b5b5;
+  font-size:13px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+.btn-edit{
+  margin-left:5px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+
+/*IMAGES*/
+.photo{
+  margin-bottom:25px;
+  font-family: "rooney-web", "Helvetica-Neue", Helvetica, Arial, sans-serif;
+}
+.photo img{
+  margin-bottom:2px;
+}
+.photo .credit{
+  color:#999;
+  font-size:13px
+  text-align: right;
+}
+.photo .caption{
+  color:#999;
+  font-size:13px
+}
+
+
+/*Footer*/
+#footer{
+  text-align: center;
+  font-weight: 600;
+}
+#footer p{
+  font-size:15px;
+}
+.datespan{
+ font-weight: 400; 
+ font-style: italic;
+}
+#menu-footer{
+  padding:0;
+}
+#menu-footer li{
+  font-size: 15px;
+  display: inline;
+}
+#menu-footer li a{
+  padding: 5px 10px;
+}

@@ -1,0 +1,112 @@
+/*
+Hide code snippets on mobile devices
+XS
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+*/
+@media screen and (max-width: 767px) {
+	#head{
+  	min-height: 300px;
+	}
+}
+
+/*
+Tablets and up
+SM
+*/
+@media screen and (min-width: 768px) {
+	
+	section{
+  	padding:60px 0;
+	}
+
+ 	h4{
+	  font-size:30px;
+	  font-weight: 900;
+	}
+
+	#head{
+  	/*padding:60px 0;*/
+	}
+	#head h1{
+		font-size: 48px;
+	}
+	#head h1 .logo{
+		width:175px;
+	}
+	#head h2{
+		margin-top:1.2em;
+		font-size: 60px;
+		font-weight: 900;
+	}
+	/*Navbar*/
+	.navbar li{
+		padding:10px 15px;
+		font-size:21px;
+	}
+
+
+	/*Step*/
+	.step p{
+		font-size: 24px;
+	}
+	.step .lead{
+		font-size: 30px;
+	}
+	.step span{
+		/*display: block;*/
+	}
+	.step blockquote{
+		/*padding: 10px 100px;*/
+	}
+	
+	/*Survey MSG*/
+	#survey-msg p{
+	  font-size: 24px;
+	}
+	#survey-msg h3{
+	  font-size:60px;
+	  font-weight: 700;
+	}
+	#survey-msg h3 a{
+		padding-bottom: 3px;
+	}
+	#survey-msg h3 a:hover{
+  	border-bottom: 5px #fff solid;
+	}
+	#survey-msg h3 img{
+  margin-top: -15px;
+  margin-left: 10px;
+  width: 45px;
+	}
+	
+
+	#social{}
+	#social h4{
+		font-size: 31px;
+	}
+	#social h4 i{
+		top:10px;
+		left: -10px;
+	}
+	#social h4 strong{
+		font-weight: 500;
+	}
+}
+
+/*
+Tablets/desktops and up
+MD
+*/
+@media screen and (min-width: 992px) {
+
+	
+}
+
+
+/*
+Large desktops and up
+LG
+*/
+@media screen and (min-width: 1200px) {
+
+}
